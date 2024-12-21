@@ -6,7 +6,8 @@ from scipy.ndimage import generic_filter
 
 
 # QUEST 3
-image_path = "/Users/mbelouar/Desktop/Project_VA/Images/BELOUARRAQ2.jpg"
+image_path = "C:/Users/HP/Desktop/VA/Project_Vision_Artificielle/Images/hicham.jpg"
+
 
 def convertir_en_niveaux_de_gris(image_path, nombre_bits):
     image = Image.open(image_path).convert('L') 
